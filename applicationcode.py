@@ -39,6 +39,7 @@ while(1):
             test_list.sort(key=lambda test_list:test_list[4])
             print(" "+str(test_list))
     if(choice==4):
+        n=len(applicationname)
         for i in range(0,n):
                 print('application name\t:\t',applicationname[i])
                 print('Author name\t:\t',author[i])
@@ -62,5 +63,3 @@ while(1):
             print('the authorname and year does not found in the list')
     if(choice==6):
         exit()
-
-
